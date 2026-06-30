@@ -1,0 +1,25 @@
+# Change log (created 2026-06-30 12:23 KST):
+# - Created this Git ignore file for the submission upload folder.
+# - Excludes API keys, dependency folders, generated builds, caches, logs, and runtime outputs.
+
+Key.txt
+**/Key.txt
+
+node_modules/
+dist/
+allure-results/
+allure-report/
+
+__pycache__/
+*.pyc
+
+outputs/
+*.log
+*.err
+
+.env
+.env.*
+!.env.example
+
+.pixel-agents/
+.vscode-test/
