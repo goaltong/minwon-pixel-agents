@@ -8,7 +8,6 @@ Change log (created 2026-06-30 12:23 KST):
 
 # Pixel Agents OpenRouter Multi-Agent Submission
 
-이 폴더는 과제 제출용 GitHub 업로드 파일 모음입니다.
 
 ## 구현 요약
 
@@ -48,7 +47,6 @@ http://127.0.0.1:3210
 
 `Agent` 폴더 안에 `Key.txt` 파일을 만들고 OpenRouter API key를 넣습니다.
 
-주의: `Key.txt`는 GitHub에 올리면 안 됩니다.
 
 ### 3. Python workflow 실행
 
@@ -71,16 +69,3 @@ python web_app.py
 http://127.0.0.1:8004
 ```
 
-## GitHub 업로드 예시
-
-```powershell
-cd D:\AI_Champion\6차수과제2\제출
-git init
-git add .
-git commit -m "Add OpenRouter local-agent Pixel Agents submission"
-git branch -M main
-git remote add origin https://github.com/<your-id>/<your-repo>.git
-git push -u origin main
-```
-
-GitHub repository는 public으로 생성한 뒤 제출 주소에 해당 repository URL을 입력하면 됩니다.
